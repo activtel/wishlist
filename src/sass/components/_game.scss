@@ -1,0 +1,32 @@
+.item {
+	display: inline-table;
+    position: relative;
+	float: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+    .btn {
+        width: 100%;
+        background: $wishlist-table-background;
+        color: $color-link-base;
+        border: none;
+        border-radius: 0px;
+        font-size: $font-size-btn;
+        
+        &:hover {
+            color: $color-link-base-hover;
+        }
+        &.wishlist {
+            color: $item-color-wishlist;
+        }
+    }
+    
+    h4 {
+       font-size: $font-size-base;
+    }
+    h5 {
+       color: $item-h5-color;
+       font-size: $font-size-base;
+    }
+    
+}

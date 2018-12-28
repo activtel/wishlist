@@ -1,0 +1,16 @@
+body {
+    padding-top: 90px;
+    background: $background-base;
+    font-family: $font-family-base;
+    color: $color-base;
+    font-size: $font-size-base;
+    
+    a {
+        color: $color-link-base;
+        text-decoration: underline;
+        
+        &:hover {
+            color: $color-link-base-hover;
+        }
+    }
+}
